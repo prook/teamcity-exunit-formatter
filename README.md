@@ -1,32 +1,16 @@
-TeamCityExUnitFormatter
-=======================
+# TeamCityExUnitFormatter
 
-See https://confluence.jetbrains.com/display/TCD9/Build+Script+Interaction+with+TeamCity#BuildScriptInteractionwithTeamCity-ServiceMessages
+Provides [Build Script Interaction with TeamCity](https://confluence.jetbrains.com/display/TCD10/Build+Script+Interaction+with+TeamCity).
 
 ## Installation
 
-First, add TeamCityExUnitFormatter to your `mix.exs` dependencies:
-
-```elixir
-def deps do
-  [{:teamcity_exunit_formatter, "~> 0.3.0"}]
-end
-```
-
-Then, update your dependencies:
-
-```sh-session
-$ mix deps.get
+```sh
+mix archive.install github prook/teamcity-exunit-formatter
 ```
 
 ## Usage
 
-Add this to your `test_helper.exs`:
-
-```elixir
-if System.get_env("TEAMCITY_VERSION") do
-  ExUnit.configure formatters: [TeamCityExUnitFormatter]
-end
-
-ExUnit.start
+```sh
+cd /path/to/project/
+mix test --formatter=TeamCityExUnitFormatter
 ```
