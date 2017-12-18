@@ -15,9 +15,9 @@ defmodule TeamCityFormatter.Mixfile do
   end
 
   defp package do
-    [maintainers: ["Simon Stender Boisen"],
+    [maintainers: ["Jan Winkler"],
      licenses: ["MIT"],
-     links: %{"GitHub" => "https://github.com/lixhq/teamcity-exunit-formatter"}]
+     links: %{"GitHub" => "https://github.com/prook/teamcity-exunit-formatter"}]
   end
 
   defp deps do
