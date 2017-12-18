@@ -1,4 +1,4 @@
-defmodule TeamCityExUnitFormatter do
+defmodule TeamCityFormatter do
   @moduledoc false
 
   use GenServer

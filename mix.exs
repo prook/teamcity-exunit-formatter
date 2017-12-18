@@ -2,7 +2,7 @@ defmodule TeamCityFormatter.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :teamcity_exunit_formatter,
+    [app: :teamcity_formatter,
      version: "0.4.0",
      elixir: "~> 1.5",
      description: "ExUnit TeamCity Service Messages Formatter",
@@ -17,7 +17,7 @@ defmodule TeamCityFormatter.Mixfile do
   defp package do
     [maintainers: ["Jan Winkler"],
      licenses: ["MIT"],
-     links: %{"GitHub" => "https://github.com/prook/teamcity-exunit-formatter"}]
+     links: %{"GitHub" => "https://github.com/prook/teamcity-formatter"}]
   end
 
   defp deps do

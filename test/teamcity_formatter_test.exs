@@ -1,8 +1,8 @@
-defmodule TeamCityExUnitFormatterTest do
+defmodule TeamCityFormatterTest do
   use ExUnit.Case
 
   import ExUnit.CaptureIO
-  alias TeamCityExUnitFormatter, as: Sut
+  alias TeamCityFormatter, as: Sut
 
   def config do
     %{
