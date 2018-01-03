@@ -7,7 +7,7 @@ Based on [TeamCityExUnitFormatter](https://github.com/lixhq/teamcity-exunit-form
 ## Installation
 
 ```sh
-mix archive.install github prook/teamcity-formatter
+mix archive.install github prook/teamcity_formatter
 ```
 
 ## Usage
